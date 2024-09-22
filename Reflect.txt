@@ -1,0 +1,32 @@
+/**********************************************
+ Workshop #
+ Course: Application Development - Semester 5
+ Last Name: Dugar
+ First Name: Harsh
+ ID: 112689229
+ Section: ZAA
+ This assignment represents my own work in accordance with Seneca Academic Policy.
+ Signature
+ Date: 09-22-2204
+ **********************************************/
+
+
+o Reflect on how MVC helped you in code organization.
+
+--The MVC (Model-View-Controller) pattern was instrumental in successfully completing this project by providing a structured approach to organizing the code and managing different components.
+ It allowed me to focus on specific areas of functionality without overwhelming the entire codebase.
+
+--Initially, I struggled with how to organize the flow of the program and where to place the different logic and functionality.
+However, after studying the MVC specifications, it became clear how to effectively divide responsibilities among the components: Model, View, and Controller. This separation made it easier to design a clear flow between these components and implement the project in a more organized and manageable way.
+
+--In this project, the MusicalInstrument class acted as the Model, encapsulating all the data and logic related to musical instruments.
+ It stored the properties of different instruments through getters and setters and contained methods detailing how each instrument makes sounds, how to play them, and even how to fix them. By centralizing this data and behavior in the Model, I ensured that all the business logic was in one place, making it easier to manage and extend as needed.
+
+--The View component was responsible for all the user interface elements. It held the display methods and handled interactions with the user,
+such as taking input for instrument families and displaying the relevant information about the instruments. Keeping the UI code separate in the View made it easier to modify the user interface without affecting the underlying logic.
+
+--The Controller acted as an intermediary between the Model and View, managing the flow of data and user interactions.
+It processed user inputs, retrieved the necessary data from the Model, and updated the View accordingly. This clear separation of concerns allowed me to implement complex logic in the Controller without cluttering the Model or View with unrelated code.
+
+--Overall, MVC helped me keep the codebase clean and modular, making it easier to debug, maintain, and extend the project.
+It provided a clear structure that improved my understanding of the code and made the development process more efficient.
